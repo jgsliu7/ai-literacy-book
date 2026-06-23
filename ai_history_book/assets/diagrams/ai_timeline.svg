@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#ffffff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .dark{fill:#495057} .line{stroke:#495057;stroke-width:3;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">人工智能发展主线</text>
+<line class="line" x1="90" y1="330" x2="1010" y2="330"/>
+<g>
+<circle class="dark" cx="120" cy="330" r="10"/><text class="label" x="80" y="285">逻辑</text><text class="tiny" x="55" y="360">古希腊</text>
+<circle class="dark" cx="260" cy="330" r="10"/><text class="label" x="212" y="285">机械计算</text><text class="tiny" x="205" y="360">17-19世纪</text>
+<circle class="dark" cx="410" cy="330" r="10"/><text class="label" x="365" y="285">计算理论</text><text class="tiny" x="370" y="360">1930s</text>
+<circle class="dark" cx="550" cy="330" r="10"/><text class="label" x="505" y="285">AI诞生</text><text class="tiny" x="520" y="360">1956</text>
+<circle class="dark" cx="690" cy="330" r="10"/><text class="label" x="642" y="285">机器学习</text><text class="tiny" x="630" y="360">1980s-2000s</text>
+<circle class="dark" cx="835" cy="330" r="10"/><text class="label" x="785" y="285">深度学习</text><text class="tiny" x="790" y="360">2012后</text>
+<circle class="dark" cx="980" cy="330" r="10"/><text class="label" x="940" y="285">大模型</text><text class="tiny" x="930" y="360">2020s</text>
+</g>
+<text class="small" x="90" y="455">这条主线不是直线进步，而是由思想、工具、数据、算力和社会需求共同推动。</text>
+
+</svg>

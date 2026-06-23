@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#ffffff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .dark{fill:#495057} .line{stroke:#495057;stroke-width:3;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">大语言模型的基本流程</text>
+<rect class="box" x="70" y="210" width="180" height="100"/><text class="label" x="120" y="270">数据</text>
+<rect class="box" x="315" y="210" width="180" height="100"/><text class="label" x="365" y="270">训练</text>
+<rect class="box" x="560" y="210" width="180" height="100"/><text class="label" x="610" y="270">模型</text>
+<rect class="box" x="805" y="210" width="220" height="100"/><text class="label" x="860" y="270">生成回答</text>
+<path class="line arrow" d="M250 260 L315 260"/><path class="line arrow" d="M495 260 L560 260"/><path class="line arrow" d="M740 260 L805 260"/>
+<text class="tiny" x="82" y="345">文本、图像、代码等</text><text class="tiny" x="305" y="345">调整参数，降低错误</text><text class="tiny" x="560" y="345">保存语言和知识模式</text><text class="tiny" x="810" y="345">仍需人类核查</text>
+<rect class="accent" x="230" y="440" width="640" height="85"/><text class="small" x="270" y="478">关键提醒：模型生成的是“可能的答案”，不是天然可靠的事实数据库。</text>
+
+</svg>

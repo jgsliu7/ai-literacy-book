@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#ffffff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .dark{fill:#495057} .line{stroke:#495057;stroke-width:3;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">两种AI思路：写规则 vs 从数据中学习</text>
+<rect class="box" x="90" y="150" width="420" height="330"/><text class="label" x="200" y="200">符号AI / 专家系统</text><text class="small" x="130" y="260">人类专家写规则</text><text class="small" x="130" y="310">知识库 + 推理机</text><text class="small" x="130" y="360">适合规则清楚的领域</text><text class="small" x="130" y="410">难点：维护复杂、例外很多</text>
+<rect class="accent" x="590" y="150" width="420" height="330"/><text class="label" x="700" y="200">机器学习</text><text class="small" x="630" y="260">从样本中寻找规律</text><text class="small" x="630" y="310">训练数据 + 模型参数</text><text class="small" x="630" y="360">适合图像、语音、文本等复杂任务</text><text class="small" x="630" y="410">难点：需要数据，解释性较弱</text>
+
+</svg>

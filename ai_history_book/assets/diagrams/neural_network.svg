@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#ffffff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .dark{fill:#495057} .line{stroke:#495057;stroke-width:3;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">神经网络的层次结构</text>
+<g class="small"><text x="120" y="135">输入层</text><text x="460" y="135">隐藏层</text><text x="850" y="135">输出层</text></g>
+<g fill="#f8f9fa" stroke="#495057" stroke-width="3">
+<circle cx="160" cy="220" r="34"/><circle cx="160" cy="330" r="34"/><circle cx="160" cy="440" r="34"/>
+<circle cx="470" cy="180" r="34"/><circle cx="470" cy="290" r="34"/><circle cx="470" cy="400" r="34"/><circle cx="470" cy="510" r="34"/>
+<circle cx="870" cy="270" r="38"/><circle cx="870" cy="410" r="38"/>
+</g>
+<g stroke="#adb5bd" stroke-width="2">
+<line x1="194" y1="220" x2="436" y2="180"/><line x1="194" y1="220" x2="436" y2="290"/><line x1="194" y1="220" x2="436" y2="400"/><line x1="194" y1="330" x2="436" y2="180"/><line x1="194" y1="330" x2="436" y2="290"/><line x1="194" y1="330" x2="436" y2="400"/><line x1="194" y1="330" x2="436" y2="510"/><line x1="194" y1="440" x2="436" y2="290"/><line x1="194" y1="440" x2="436" y2="400"/><line x1="504" y1="180" x2="832" y2="270"/><line x1="504" y1="290" x2="832" y2="270"/><line x1="504" y1="400" x2="832" y2="410"/><line x1="504" y1="510" x2="832" y2="410"/>
+</g>
+<text class="small" x="305" y="575">训练的过程，就是不断调整连接权重，让输出更接近期望答案。</text>
+
+</svg>

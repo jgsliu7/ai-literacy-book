@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#ffffff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .dark{fill:#495057} .line{stroke:#495057;stroke-width:3;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">图灵机的基本想象</text>
+<rect class="box" x="130" y="210" width="110" height="90"/><rect class="box" x="240" y="210" width="110" height="90"/><rect class="accent" x="350" y="210" width="110" height="90"/><rect class="box" x="460" y="210" width="110" height="90"/><rect class="box" x="570" y="210" width="110" height="90"/>
+<text class="label" x="169" y="265">0</text><text class="label" x="279" y="265">1</text><text class="label" x="389" y="265">读</text><text class="label" x="499" y="265">1</text><text class="label" x="609" y="265">0</text>
+<path class="line arrow" d="M405 205 L405 145 L760 145 L760 245"/>
+<rect class="box" x="720" y="190" width="260" height="120"/>
+<text class="label" x="755" y="240">控制规则</text><text class="small" x="750" y="275">读取、写入、左移或右移</text>
+<path class="line arrow" d="M350 330 L260 430"/><path class="line arrow" d="M460 330 L550 430"/>
+<text class="small" x="170" y="470">纸带保存符号</text><text class="small" x="500" y="470">机器按规则一步步执行</text>
+
+</svg>

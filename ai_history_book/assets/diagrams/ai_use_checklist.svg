@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#ffffff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .dark{fill:#495057} .line{stroke:#495057;stroke-width:3;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">学生使用AI的三步核查</text>
+<rect class="box" x="95" y="155" width="280" height="310"/><text class="label" x="150" y="210">1. 说清任务</text><text class="small" x="130" y="270">角色</text><text class="small" x="130" y="315">背景</text><text class="small" x="130" y="360">输出格式</text>
+<rect class="box" x="410" y="155" width="280" height="310"/><text class="label" x="465" y="210">2. 检查答案</text><text class="small" x="445" y="270">是否跳步</text><text class="small" x="445" y="315">是否有来源</text><text class="small" x="445" y="360">是否可能幻觉</text>
+<rect class="accent" x="725" y="155" width="280" height="310"/><text class="label" x="780" y="210">3. 人类负责</text><text class="small" x="760" y="270">核查事实</text><text class="small" x="760" y="315">保护隐私</text><text class="small" x="760" y="360">标注AI参与</text>
+<path class="line arrow" d="M375 310 L410 310"/><path class="line arrow" d="M690 310 L725 310"/>
+
+</svg>

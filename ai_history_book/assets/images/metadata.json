@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "antikythera",
+    "title": "File:NAMA Machine d'Anticythère 1.jpg",
+    "file": "assets/images/antikythera.jpg",
+    "chapter": "第二章",
+    "caption_cn": "安提基特拉机械残片，古代复杂机械计算装置的代表。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg",
+    "license": "CC BY 2.5",
+    "artist": "No machine-readable author provided. Marsyas assumed (based on copyright claims).",
+    "description": "Main w:en:Antikythera mechanism fragment (fragment A). The mechanism consists of a complex system of 30 wheels and plates with inscriptions relating to signs of the zodiac, months, eclipses and pan-Hellenic games. The study of the fragments suggests that this was a kind of astrolabe. The interpretation now generally accepted dates back to studies by Professor w:en:Derek de Solla Price, who was the first to suggest that the mechanism is a machine to calculate the solar and lunar calendar, that is to say, an ingenious machine to determine the time based on the movements of the sun and moon, their relationship (eclipses) and the movements of other stars and planets known at that time. Later research by the Antikythera Mechanism Research Project and scholar Michael Wright has added to and improved upon Price's work. The mechanism was probably built by a mechanical engineer of the school of  Posidonius in Rhodes. Cicero, who visited the island in 79/78 B.C. reported that such devices were indeed designed by the Stoic philosopher Posidonius of Apamea. The design of the Antikythera mechanism appears to follow the tradition of Archimedes' planetarium, and may be related to sundials. His modus operandi is based on the use of gears. The machine is dated around 89 B.C. and comes from the wreck found off the island of Antikythera. National Archaeological Museum, Athens, No. 15987."
+  },
+  {
+    "slug": "abacus",
+    "title": "File:Chinese-abacus.jpg",
+    "file": "assets/images/abacus.jpg",
+    "chapter": "第二章",
+    "caption_cn": "中国算盘，长期服务于商业、教育与日常计算。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese-abacus.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Shieldforyoureyes  Dave Fischer",
+    "description": "A Chinese Abacus"
+  },
+  {
+    "slug": "ada_lovelace",
+    "title": "File:Ada Lovelace portrait.jpg",
+    "file": "assets/images/ada_lovelace.jpg",
+    "chapter": "第四章",
+    "caption_cn": "艾达·洛芙莱斯肖像，她预见了可编程机器处理符号的可能。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg",
+    "license": "Public domain",
+    "artist": "Alfred Edward Chalon",
+    "description": "Watercolor portrait of Ada King, Countess of Lovelace (Ada Lovelace)"
+  },
+  {
+    "slug": "babbage_portrait",
+    "title": "File:Charles Babbage by Antoine Claudet c1847-51-crop.jpg",
+    "file": "assets/images/babbage_portrait.jpg",
+    "chapter": "第四章",
+    "caption_cn": "查尔斯·巴贝奇肖像，机械计算机时代的核心人物。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Babbage_by_Antoine_Claudet_c1847-51-crop.jpg",
+    "license": "Public domain",
+    "artist": "Antoine Claudet",
+    "description": "Daguerreotype of Charles Babbage"
+  },
+  {
+    "slug": "difference_engine",
+    "title": "File:Charles Babbage Difference Engine No1.jpg",
+    "file": "assets/images/difference_engine.jpg",
+    "chapter": "第四章",
+    "caption_cn": "巴贝奇差分机一号局部模型，展示机械自动计算的工程复杂度。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Babbage_Difference_Engine_No1.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Marcin Wichary",
+    "description": "Difference Engine No.1 (Partial Model) Charles Babbage. Science Museum, London."
+  },
+  {
+    "slug": "turing",
+    "title": "File:Alan Turing (1951).jpg",
+    "file": "assets/images/turing.jpg",
+    "chapter": "第五章",
+    "caption_cn": "艾伦·图灵肖像，现代计算理论与图灵测试的奠基者。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg",
+    "license": "Public domain",
+    "artist": "Elliott & Fry",
+    "description": "Photograph portrait of Alan Turing, taken on 29 March 1951."
+  },
+  {
+    "slug": "von_neumann",
+    "title": "File:John von Neumann in New Mexico.jpg",
+    "file": "assets/images/von_neumann.jpg",
+    "chapter": "第六章",
+    "caption_cn": "约翰·冯·诺依曼肖像，存储程序计算机架构的重要推动者。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:John_von_Neumann_in_New_Mexico.jpg",
+    "license": "Attribution",
+    "artist": "Los Alamos Laboratory",
+    "description": "Informal portrait of John von Neumann in New Mexico. Ca. 1943 - 1947"
+  },
+  {
+    "slug": "eniac",
+    "title": "File:Two women operating ENIAC.gif",
+    "file": "assets/images/eniac.gif",
+    "chapter": "第六章",
+    "caption_cn": "两位操作员正在操作ENIAC主控制面板，电子计算机时代的标志性场景。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC.gif",
+    "license": "Public domain",
+    "artist": "United States Army",
+    "description": "Two women operating the ENIAC's main control panel while the machine was still located at the Moore School. \"U.S. Army Photo\" from the archives of the ARL Technical Library. Left: Betty Jennings (Mrs. Bartik) Right: Frances Bilas (Mrs. Spence) setting up the ENIAC. Betty has her left hand moving some dials on a panel while Frances is turning a dial on the master programmer. There is a portable function table C resting on a cart with wheels on the right side of the image. Text on piece of paper affixed to verso side reads \"Picture 27 Miss Betty Jennings and Miss Frances Bilas (right) setting up a part of the ENIAC. Miss Bilas is arranging the program settings on the Master Programmer. Note the portable function table on her right.\". Written in pencil on small white round label on original protective sleeve was \"1108-6\"."
+  },
+  {
+    "slug": "shannon",
+    "title": "File:Claude Shannon c1930.png",
+    "file": "assets/images/shannon.png",
+    "chapter": "第三章",
+    "caption_cn": "克劳德·香农早年肖像，他把布尔代数与电路设计连接起来。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Claude_Shannon_c1930.png",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "description": "Portrait of Claude E. Shannon Jr. wearing a tie, at his home in Gaylord, Michigan"
+  },
+  {
+    "slug": "perceptron",
+    "title": "File:Mark I Perceptron, Figure 2 of operator's manual.png",
+    "file": "assets/images/perceptron.png",
+    "chapter": "第八章",
+    "caption_cn": "Mark I Perceptron 手册中的设备示意图，早期神经网络硬件实验。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mark_I_Perceptron,_Figure_2_of_operator%27s_manual.png",
+    "license": "Public domain",
+    "artist": "John C. Hay, Albert E. Murray",
+    "description": "Mark I Perceptron, Figure 2 of operator's manual https://apps.dtic.mil/sti/tr/pdf/AD0236965.pdf MARK I PERCEPTRON OPERATORS' MANUAL (Project PARA) 15 February 1960  Contract No. Nonr-2381(00)"
+  },
+  {
+    "slug": "eliza",
+    "title": "File:ELIZA conversation.png",
+    "file": "assets/images/eliza.png",
+    "chapter": "第八章",
+    "caption_cn": "ELIZA 对话示例，展示早期聊天程序的交互方式。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ELIZA_conversation.png",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "description": "A conversation with the ELIZA chatbot."
+  },
+  {
+    "slug": "shakey",
+    "title": "File:SRI Shakey robot, 1969, Computer History Museum.jpg",
+    "file": "assets/images/shakey.jpg",
+    "chapter": "第八章",
+    "caption_cn": "Shakey机器人，早期将感知、规划和行动整合的移动机器人。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SRI_Shakey_robot,_1969,_Computer_History_Museum.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "The wub",
+    "description": "SRI Shakey robot, 1969, Computer History Museum"
+  },
+  {
+    "slug": "lisp_machine",
+    "title": "File:Symbolics LISP Workstation (Computer History Museum).jpg",
+    "file": "assets/images/lisp_machine.jpg",
+    "chapter": "第十章",
+    "caption_cn": "Symbolics Lisp工作站，专家系统商业化时期的重要硬件。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Symbolics_LISP_Workstation_(Computer_History_Museum).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Thomas Conté",
+    "description": "Symbolics LISP Workstation at the Computer History Museum. (\"3620 Lisp Workstation CPU, Symbolics, US, 1983. [..] Gift of Michael Plitkins, X2430 2002A\")"
+  },
+  {
+    "slug": "deep_blue",
+    "title": "File:Deep Blue.jpg",
+    "file": "assets/images/deep_blue.jpg",
+    "chapter": "第十二章",
+    "caption_cn": "IBM Deep Blue 类似系统，象棋AI里程碑的代表性机器。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+    "license": "CC BY 2.0",
+    "artist": "James the photographer",
+    "description": "Deep Blue, a computer similar to this one defeated chess world champion Garry Kasparov in May 1997.  It is the first computer to win a match against a world champion. Photo taken at the Computer History Museum."
+  },
+  {
+    "slug": "alphago_board",
+    "title": "File:Lee Sedol (W) vs AlphaGo (B) - Game 2.svg",
+    "file": "assets/images/alphago_board.png",
+    "chapter": "第十三章",
+    "caption_cn": "李世石与AlphaGo第二局棋谱图，第37手成为AI创造性讨论的经典案例。",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lee_Sedol_(W)_vs_AlphaGo_(B)_-_Game_2.svg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Wesalius",
+    "description": "Lee Sedol (W) vs AlphaGo (B) - Game 2 Komi: 7.50 Time: 2h0min 3x1min byo-yomi Result: Black wins by resignation  Rules: Chinese"
+  }
+]
