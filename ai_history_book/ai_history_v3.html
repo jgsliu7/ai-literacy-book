@@ -206,7 +206,11 @@
         /* Part Divider */
         .part-divider {
             page-break-before: always;
-            height: 100vh;
+            page-break-after: always;
+            break-before: page;
+            break-after: page;
+            min-height: 100vh;
+            margin: 8vh 0;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -344,8 +348,9 @@
                 margin-right: 72px;
             }
             .part-divider {
-                height: 78vh;
-                min-height: 620px;
+                min-height: 100vh;
+                margin-top: 10vh;
+                margin-bottom: 10vh;
             }
             .book-figure.wide img {
                 max-height: 560px;
@@ -562,7 +567,7 @@
     <a class="chapter-link" href="#ch10">第十章 专家系统的兴衰</a>
     <a class="part-link" href="#part6">第六篇 机器学习时代</a>
     <a class="chapter-link" href="#ch11">第十一章 神经网络的复兴</a>
-    <a class="chapter-link" href="#ch12">第十二章 统计学习与大革命</a>
+    <a class="chapter-link" href="#ch12">第十二章 统计学习的崛起</a>
     <a class="part-link" href="#part7">第七篇 深度学习革命</a>
     <a class="chapter-link" href="#ch13">第十三章 深度学习的爆发</a>
     <a class="chapter-link" href="#ch14">第十四章 Transformer 与大模型</a>
@@ -572,7 +577,7 @@
     <a class="chapter-link" href="#ch16">第十六章 AI 发展新纪元</a>
     <a class="chapter-link" href="#supplement2">通识补充二 如何正确使用 AI</a>
     <a class="chapter-link" href="#epilogue">结语</a>
-    <a class="chapter-link" href="#references">参考文献</a>
+    <a class="chapter-link" href="#further-reading">推荐阅读</a>
 </nav>
 
 
@@ -609,7 +614,7 @@
         
         <li class="toc-part"><a href="#part6">第六篇 机器学习时代</a></li>
         <li class="toc-chapter"><a href="#ch11">第十一章 神经网络的复兴</a></li>
-        <li class="toc-chapter"><a href="#ch12">第十二章 统计学习与大革命</a></li>
+        <li class="toc-chapter"><a href="#ch12">第十二章 统计学习的崛起</a></li>
         
         <li class="toc-part"><a href="#part7">第七篇 深度学习革命</a></li>
         <li class="toc-chapter"><a href="#ch13">第十三章 深度学习的爆发</a></li>
@@ -622,7 +627,7 @@
         <li class="toc-chapter"><a href="#supplement2">通识补充二 如何正确使用 AI</a></li>
         
         <li class="toc-chapter"><a href="#epilogue">结语：智能的未来</a></li>
-        <li class="toc-chapter"><a href="#references">参考文献</a></li>
+        <li class="toc-chapter"><a href="#further-reading">推荐阅读</a></li>
     </ul>
 </div>
 
@@ -640,7 +645,7 @@
     
     <p>在撰写本书的过程中，我深切地体会到：AI的发展从来不是一条直线。它充满了曲折、反复与意外。每一次重大突破背后，都有无数研究者的默默耕耘；每一次"寒冬"降临，也都孕育着下一次"春天"的种子。理解这段历史，有助于我们更好地把握当下，更清醒地展望未来。</p>
     
-    <p>本书面向所有对人工智能感兴趣的读者，尤其适合非计算机专业学生、高中生、大学生和希望建立AI基本素养的普通读者。v2版本在保留历史主线的基础上，增加了关键概念、使用方法、课堂讨论和现实案例，帮助读者不仅知道AI从哪里来，也能理解AI如何工作、如何被负责任地使用。让我们一起踏上这段穿越千年的智能探索之旅。</p>
+    <p>本书面向所有对人工智能感兴趣的读者，尤其适合非计算机专业学生、高中生、大学生和希望建立AI基本素养的普通读者。v3版本在保留历史主线的基础上，增加了关键概念、使用方法、课堂讨论和现实案例，帮助读者不仅知道AI从哪里来，也能理解AI如何工作、如何被负责任地使用。让我们一起踏上这段穿越千年的智能探索之旅。</p>
 
     <div class="learning-box">
         <h3>如何使用这本书</h3>
@@ -956,9 +961,9 @@
 
 <p>图灵测试的设定简单而精妙：一个人类评审员通过文字终端分别与一台机器和一个人类进行对话，但不知道哪个是机器、哪个是人类。如果评审员无法可靠地区分两者，那么就可以认为这台机器具备了智能。图灵认为，与其争论"机器能否思考"这个定义不清的问题，不如关注一个可以实际测试的问题："机器能否在行为上表现得像有智能一样？"</p>
 
-<p>图灵测试在AI历史上引发了持续数十年的争论。支持者认为它提供了一个可行的智能判定标准；批评者指出，通过图灵测试并不等同于真正理解或拥有意识。无论如何，图灵测试将AI从哲学思辨推向了可操作的研究议程，为这门新学科设定了第一个明确的目标。2014年，一个名为Eugene Goostman的聊天机器人声称通过了图灵测试（在严格的5分钟对话限制下），引发了新一轮的争论。而大语言模型出现后，图灵测试的原始版本已不再构成重大挑战，促使研究者提出更加严格的评判标准。</p>
+<p>图灵测试在AI历史上引发了持续数十年的争论。支持者认为它提供了一个可行的智能判定标准；批评者指出，通过图灵测试并不等同于真正理解或拥有意识。无论如何，图灵测试将AI从哲学思辨推向了可操作的研究议程，为这门新学科设定了第一个明确的目标。2014年，一个名为Eugene Goostman的聊天机器人在严格限定条件下（5分钟对话限制，且伪装为13岁非英语母语者）被一些媒体称为通过了图灵测试，但这一声称在AI学界存在广泛争议。而大语言模型出现后，图灵测试的原始版本已不再构成重大挑战，促使研究者提出更加严格的评判标准。</p>
 
-<p>1954年，图灵因同性恋身份被英国政府起诉和化学阉割。1954年6月7日，图灵吃下浸过氰化物溶液的苹果，结束了自己42岁的生命。直到2009年，英国政府才正式为对图灵的迫害道歉；2013年，英国女王伊丽莎白二世授予图灵皇家赦免。图灵的悲剧人生为这位科学天才的传奇增添了浓重的人文色彩，也使后来的AI研究者更加关注技术的伦理和社会维度。</p>
+<p>1954年，图灵因同性恋身份被英国政府起诉和化学阉割。1954年6月7日，图灵吃下浸过氰化物溶液的苹果，结束了自己41岁的生命。直到2009年，英国政府才正式为对图灵的迫害道歉；2013年，英国女王伊丽莎白二世授予图灵皇家赦免。图灵的悲剧人生为这位科学天才的传奇增添了浓重的人文色彩，也使后来的AI研究者更加关注技术的伦理和社会维度。</p>
 
 <!-- Chapter 6 -->
 <h1 id="ch6">第六章 从图灵到冯·诺依曼</h1>
@@ -1105,7 +1110,7 @@
 
 <p>感知机的重要性在于，它是第一个可以从经验中"学习"的人工神经网络。罗森布拉特证明了，如果一组数据是线性可分的——也就是说，可以在输入空间中用一条直线（或超平面）将不同类别完全分开——那么感知机算法一定可以在有限步内找到一个正确的分类器。这个定理被称为<strong>感知机收敛定理</strong>，它为机器学习提供了第一个严格的理论基础。</p>
 
-<p>感知机的成功引起了媒体的广泛关注。《纽约时报》1958年的一篇报道将感知机描述为"一台电子计算机的雏形，预计它将能够走路、说话、看见、写作、自我复制并意识到自身的存在"。这种过度的 hype 虽然在短期内为AI研究吸引了资金和关注，但也为日后的失望埋下了伏笔。罗森布拉特本人对这种宣传深感不安，他坚持认为感知机只是一个有限的模式识别装置，远非通用智能的实现。</p>
+<p>感知机的成功引起了媒体的广泛关注。《纽约时报》1958年的一篇报道将感知机描述为"一台电子计算机的雏形，预计它将能够走路、说话、看见、写作、自我复制并意识到自身的存在"。这种过度宣传（hype）虽然在短期内为AI研究吸引了资金和关注，但也为日后的失望埋下了伏笔。罗森布拉特本人对这种宣传深感不安，他坚持认为感知机只是一个有限的模式识别装置，远非通用智能的实现。</p>
 
 <p>然而，感知机的局限性很快就被揭示出来。1969年，MIT的AI实验室主任马文·明斯基和西摩尔·帕帕特（Seymour Papert）出版了《感知机》（Perceptrons）一书，用严谨的数学方法证明了单层感知机无法解决<strong>异或问题</strong>（XOR problem）——当两个输入相同时输出0，不同时输出1。异或问题无法用一条直线将两类数据分开，因此超出了单层感知机的能力范围。</p>
 
@@ -1240,7 +1245,7 @@
 
 <p>各国政府也看到了AI的战略价值。1982年，日本政府启动了雄心勃勃的<strong>第五代计算机项目</strong>（Fifth Generation Computer Project），计划投入850亿日元（约8.5亿美元），开发基于逻辑推理和并行处理的智能计算机。英国紧随其后，推出了Alvey项目来资助本国的AI研究。美国DARPA也重新加大了对AI的投入。全球AI研究经费在1980年代中期达到了前所未有的高峰。</p>
 
-<p> expert系统的应用领域迅速扩展：医学诊断、金融分析、化学合成规划、矿产勘探、设备故障诊断、法律推理……几乎每个需要专业知识的领域都有人尝试构建专家系统。这个时期的热情如此高涨，以至于一些研究者宣称"AI冬天已经过去了"，一个由知识驱动的智能时代正在到来。</p>
+<p> 专家系统的应用领域迅速扩展：医学诊断、金融分析、化学合成规划、矿产勘探、设备故障诊断、法律推理……几乎每个需要专业知识的领域都有人尝试构建专家系统。这个时期的热情如此高涨，以至于一些研究者宣称"AI冬天已经过去了"，一个由知识驱动的智能时代正在到来。</p>
 
 <h2>10.3 知识获取瓶颈与内在局限</h2>
 
@@ -1334,7 +1339,7 @@
 <p>辛顿的坚持和远见最终得到了回报。2012年，他的学生Alex Krizhevsky使用深度卷积神经网络AlexNet赢得了ImageNet图像识别竞赛，将错误率从26.2%骤降至15.3%。这一突破震惊了整个计算机视觉领域，也标志着深度学习革命的开始。2018年，辛顿与勒昆和约书亚·本吉奥（Yoshua Bengio）共同获得了图灵奖，以表彰他们在深度学习领域做出的突破性贡献。</p>
 
 <!-- Chapter 12 -->
-<h1 id="ch12">第十二章 统计学习与大革命</h1>
+<h1 id="ch12">第十二章 统计学习的崛起</h1>
 
 <p class="chapter-quote">"支持向量机是我们在模式识别领域见过的最好的东西。"——研究者评价，1990年代</p>
 
@@ -1381,9 +1386,9 @@
 
 <p>深蓝的成功并非依靠优雅的算法或类人的智能，而是<strong>暴力搜索</strong>的力量。深蓝是一台专门设计的超级计算机，拥有30个IBM RS/6000 SP处理芯片和480个定制VLSI国际象棋芯片，可以在每秒钟评估约2亿个棋局位置。它使用alpha-beta剪枝算法来搜索可能的走法树，配合由国际象棋大师团队手工调优的评估函数来判断每个位置的优劣。</p>
 
-<p>深蓝的胜利在公众中引起了巨大轰动。这是AI研究40年来最引人注目的成就之一，也是AI第一次在一个被广泛认为是人类智力巅峰领域的竞赛中战胜世界冠军。然而，深蓝的 victory 在AI研究界引发的反思多于欢呼。许多研究者指出，深蓝的方法与"真正的智能"相去甚远——它依靠的是巨大的计算能力和精确的领域知识，而不是通用的问题解决能力。卡斯帕罗夫在比赛后抱怨说，他有时候感觉深蓝背后仿佛有一个"人类团队在帮助他"，因为计算机的走法显示出超人的计算精确性和在某些时刻的"创造性"。</p>
+<p>深蓝的胜利在公众中引起了巨大轰动。这是AI研究40年来最引人注目的成就之一，也是AI第一次在一个被广泛认为是人类智力巅峰领域的竞赛中战胜世界冠军。然而，深蓝的胜利在AI研究界引发的反思多于欢呼。许多研究者指出，深蓝的方法与"真正的智能"相去甚远——它依靠的是巨大的计算能力和精确的领域知识，而不是通用的问题解决能力。卡斯帕罗夫在比赛后抱怨说，他有时候感觉深蓝背后仿佛有一个"人类团队在帮助他"，因为计算机的走法显示出超人的计算精确性和在某些时刻的"创造性"。</p>
 
-<p>无论评价如何，深蓝的胜利具有重要的历史意义。它证明了计算机可以在复杂的智力竞赛中超越最优秀的人类，这为后来的AI研究提供了强大的动力。它也引发了关于AI本质的深刻讨论：什么是"真正的"智能？是通过图灵测试、在比赛 中战胜人类、还是展现出类人的理解和创造力？这些问题至今仍在争论之中。</p>
+<p>无论评价如何，深蓝的胜利具有重要的历史意义。它证明了计算机可以在复杂的智力竞赛中超越最优秀的人类，这为后来的AI研究提供了强大的动力。它也引发了关于AI本质的深刻讨论：什么是"真正的"智能？是通过图灵测试、在比赛中战胜人类、还是展现出类人的理解和创造力？这些问题至今仍在争论之中。</p>
 
 
 
@@ -1814,7 +1819,7 @@
 
 <p>通过回顾AI的发展历史，我们可以得出几个重要的启示：</p>
 
-<p><strong>第一，AI的发展从来不是线性的。</strong>从两次AI寒冬到深度学习的爆发，从符号AI的衰落到神经网络的复兴，AI的历史充满了曲折和意外。那些曾经被认为"死胡同"的方向，可能在条件成熟后焕发新生；那些被过度 hype 的方法，也可能在幻灭后留下宝贵的遗产。对AI未来的预测应该保持谦逊——我们今天确信的东西，可能明天就会被颠覆。</p>
+<p><strong>第一，AI的发展从来不是线性的。</strong>从两次AI寒冬到深度学习的爆发，从符号AI的衰落到神经网络的复兴，AI的历史充满了曲折和意外。那些曾经被认为"死胡同"的方向，可能在条件成熟后焕发新生；那些被过度炒作的方法，也可能在幻灭后留下宝贵的遗产。对AI未来的预测应该保持谦逊——我们今天确信的东西，可能明天就会被颠覆。</p>
 
 <p><strong>第二，技术突破往往来自多种因素的交汇。</strong>AlexNet的成功不仅是因为卷积神经网络架构的优越性，还因为GPU计算能力的成熟、大规模数据集（ImageNet）的可用性，以及ReLU和Dropout等技术创新的同时出现。Transformer的爆发不仅是因为自注意力机制的优雅，还因为计算能力的持续提升、互联网带来的海量训练数据，以及整个NLP领域对更强大模型的迫切需求。AI的进步是技术、数据、计算资源和人才共同作用的结果。</p>
 
@@ -1830,61 +1835,35 @@
 
 <p>AI的发展史是一部人类探索自身智力本质的史诗。从亚里士多德的三段论到Transformer的自注意力，从帕斯卡的齿轮计算器到GPT-5.5的万亿参数，从达特茅斯会议的梦想家们到全球数百万AI从业者——这场跨越千年的探索仍在继续。我们有幸生活在这个智能革命的时代，见证并参与这场改变人类文明进程的伟大变革。愿我们以智慧引导技术，以责任驾驭力量，共同创造一个AI与人类和谐共存、相互成就的美好未来。</p>
 
-<!-- REFERENCES -->
-<h1 id="references">参考文献</h1>
+<!-- FURTHER READING -->
+<h1 id="further-reading">推荐阅读</h1>
 
 <div class="references">
-<ol>
-<li>McCarthy, J., Minsky, M. L., Rochester, N., & Shannon, C. E. (2006). A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence, August 31, 1955. <i>AI Magazine</i>, 27(4), 12-14.</li>
 
-<li>Turing, A. M. (1950). Computing Machinery and Intelligence. <i>Mind</i>, 59(236), 433-460.</li>
+<p style="text-indent:0; margin-bottom:0.8cm;">读完本书后，如果你希望对人工智能的历史、原理和未来有更深入的了解，以下五本书是很好的下一站。它们由浅入深排列，每本都已出版中文版。</p>
 
-<li>Rosenblatt, F. (1958). The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain. <i>Psychological Review</i>, 65(6), 386-408.</li>
+<p style="text-indent:0; margin-bottom:0.3cm;"><strong>1. 《人工智能简史》（第3版）</strong></p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;">尼克 著 / 人民邮电出版社 / 2026年4月</p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.8cm;">一本以人物为中心的中文原创 AI 史。作者尼克曾任教于哈佛大学，他以轻松的笔调串起图灵、麦卡锡、明斯基、辛顿等关键人物的故事与逸事，涵盖从自动定理证明到大语言模型的完整谱系。本书曾获文津图书奖和吴文俊人工智能科技进步奖。</p>
 
-<li>Minsky, M., & Papert, S. (1969). <i>Perceptrons: An Introduction to Computational Geometry</i>. MIT Press.</li>
+<p style="text-indent:0; margin-bottom:0.3cm;"><strong>2. 《我看见的世界：李飞飞自传》</strong></p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;">[美] 李飞飞 著 / 赵灿 译 / 中信出版集团 / 2024年4月</p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.8cm;">ImageNet 创建者、斯坦福大学教授李飞飞的个人回忆录。她从底层移民的成长经历写起，一直讲到 ImageNet 如何催生了 AlexNet 和深度学习革命。如果你对本书第十三章中 AI 图像识别的故事感兴趣，这本书提供了第一手视角。</p>
 
-<li>Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning Representations by Back-propagating Errors. <i>Nature</i>, 323(6088), 533-536.</li>
+<p style="text-indent:0; margin-bottom:0.3cm;"><strong>3. 《智慧的疆界：从图灵机到人工智能》（第2版）</strong></p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;">周志明 著 / 机械工业出版社 / 2025年5月</p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.8cm;">豆瓣评分 9.1 的中文 AI 科普佳作。作者周志明是资深技术专家，本书以时间为轴，从图灵测试讲到大模型时代，深入符号主义、连接主义、行为主义三大流派的核心思想。适合希望系统理解 AI 技术脉络但不想啃公式的读者。</p>
 
-<li>LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based Learning Applied to Document Recognition. <i>Proceedings of the IEEE</i>, 86(11), 2278-2324.</li>
+<p style="text-indent:0; margin-bottom:0.3cm;"><strong>4. 《生命3.0：人工智能时代 人类的进化与重生》</strong></p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;">[美] 迈克斯·泰格马克 著 / 汪婕舒 译 / 浙江教育出版社 / 2018年6月</p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.8cm;">MIT 物理学教授泰格马克对 AI 与人类未来的深度思考。如果本书第十五、十六章关于 AI 安全和 AGI 的讨论让你感到好奇，这本书将带你进入更深层的哲学和实践探讨。史蒂芬·霍金和埃隆·马斯克曾推荐此书。</p>
 
-<li>Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). Attention Is All You Need. <i>Advances in Neural Information Processing Systems</i>, 30, 5998-6008.</li>
+<p style="text-indent:0; margin-bottom:0.3cm;"><strong>5. 《人工智能：现代方法》（第4版）</strong></p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;">[美] Stuart Russell & Peter Norvig 著 / 张博雅 等译 / 人民邮电出版社 / 2022年</p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;"><strong>6. 《深度学习》</strong></p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.3cm;">[美] Ian Goodfellow, Yoshua Bengio, Aaron Courville 著 / 赵申剑 等译 / 人民邮电出版社 / 2017年</p>
+<p style="text-indent:0; margin-top:0; margin-bottom:0.8cm;">最后两本放在一起推荐：Russell & Norvig 的《人工智能：现代方法》是全球 AI 课程的标准教材，如果你想从「了解 AI」进阶到「学习 AI」，这是最好的起点；Goodfellow 等人的《深度学习》则是该领域公认的权威教科书，由三位图灵奖得主（Bengio 与本书中反复提到的辛顿、勒昆共享 2018 年图灵奖）撰写。这两本需要一些数学基础，适合准备深入学习 AI 的读者。</p>
 
-<li>Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. <i>Proceedings of NAACL-HLT</i>, 4171-4186.</li>
-
-<li>Brown, T. B., Mann, B., Ryder, N., et al. (2020). Language Models are Few-Shot Learners. <i>Advances in Neural Information Processing Systems</i>, 33, 1877-1901.</li>
-
-<li>Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks. <i>Advances in Neural Information Processing Systems</i>, 25, 1097-1105.</li>
-
-<li>Silver, D., Huang, A., Maddison, C. J., et al. (2016). Mastering the Game of Go with Deep Neural Networks and Tree Search. <i>Nature</i>, 529(7587), 484-489.</li>
-
-<li>Goodfellow, I. J., Pouget-Abadie, J., Mirza, M., et al. (2014). Generative Adversarial Networks. <i>Advances in Neural Information Processing Systems</i>, 27, 2672-2680.</li>
-
-<li>Weizenbaum, J. (1966). ELIZA: A Computer Program for the Study of Natural Language Communication between Man and Machine. <i>Communications of the ACM</i>, 9(1), 36-45.</li>
-
-<li>Shortliffe, E. H. (1976). <i>MYCIN: A Rule-Based Computer Program for Advising Physicians Regarding Antimicrobial Therapy Selection</i>. Ph.D. thesis, Stanford University.</li>
-
-<li>Lighthill, J. (1973). <i>Artificial Intelligence: A General Survey</i>. Science Research Council.</li>
-
-<li>Russell, S., & Norvig, P. (2021). <i>Artificial Intelligence: A Modern Approach</i> (4th ed.). Pearson.</li>
-
-<li>Nilsson, N. J. (2010). <i>The Quest for Artificial Intelligence: A History of Ideas and Achievements</i>. Cambridge University Press.</li>
-
-<li>Boden, M. A. (2018). <i>AI: Its Nature and Future</i>. Oxford University Press.</li>
-
-<li>McCullouch, W. S., & Pitts, W. (1943). A Logical Calculus of the Ideas Immanent in Nervous Activity. <i>Bulletin of Mathematical Biophysics</i>, 5, 115-133.</li>
-
-<li>Hinton, G. E., Osindero, S., & Teh, Y. W. (2006). A Fast Learning Algorithm for Deep Belief Nets. <i>Neural Computation</i>, 18(7), 1527-1554.</li>
-
-<li>Mitchell, T. M. (1997). <i>Machine Learning</i>. McGraw-Hill Education.</li>
-
-<li>Jumper, J., Evans, R., Pritzel, A., et al. (2021). Highly Accurate Protein Structure Prediction with AlphaFold. <i>Nature</i>, 596(7873), 583-589.</li>
-
-<li>OpenAI. (2023). GPT-4 Technical Report. <i>arXiv preprint arXiv:2303.08774</i>.</li>
-
-<li>Wei, J., Wang, X., Schuurmans, D., et al. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. <i>Advances in Neural Information Processing Systems</i>, 35, 24824-24837.</li>
-
-<li>Bubeck, S., Chandrasekaran, V., Eldan, R., et al. (2023). Sparks of Artificial General Intelligence: Early Experiments with GPT-4. <i>arXiv preprint arXiv:2303.12712</i>.</li>
-</ol>
 </div>
 
 </body>
