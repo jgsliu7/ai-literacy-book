@@ -44,6 +44,19 @@
             page-break-after: always;
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 50%, #dee2e6 100%);
         }
+        .cover.image-cover {
+            background: #111;
+        }
+        .cover.image-cover::before,
+        .cover.image-cover::after {
+            display: none;
+        }
+        .cover-image {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
         .cover::before {
             content: "";
             position: absolute;
@@ -564,20 +577,8 @@
 
 
 <!-- ========== COVER ========== -->
-<div class="cover">
-    <div class="cover-decoration-1"></div>
-    <div class="cover-decoration-2"></div>
-    <div class="cover-decoration-3"></div>
-    <div class="cover-content">
-        <div class="cover-title">AI 简史：从算盘到智能时代</div>
-        <div class="cover-line"></div>
-        <div class="cover-subtitle">写给普通人的人工智能通识读本</div>
-        <div class="cover-meta">
-            <p>面向非计算机读者、高中生与大学生</p>
-            <p>从算盘与古代逻辑到大模型时代</p>
-            <p style="margin-top: 2cm;">2026年6月</p>
-        </div>
-    </div>
+<div class="cover image-cover">
+    <img class="cover-image" src="assets/images/cover.png" alt="《AI 简史：从算盘到智能时代》封面">
 </div>
 
 <!-- ========== TOC ========== -->
