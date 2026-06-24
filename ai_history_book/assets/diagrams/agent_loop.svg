@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#fff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .line{stroke:#495057;stroke-width:3;fill:none} .thin{stroke:#adb5bd;stroke-width:2;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .dot{fill:#495057} .pale{fill:#f1f3f5;stroke:#adb5bd;stroke-width:2} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">智能体：观察、计划、用工具、再调整</text>
+<circle class="pale" cx="550" cy="325" r="210"/>
+<rect class="box" x="470" y="105" width="160" height="70"/><text class="label" x="505" y="150">观察</text>
+<rect class="box" x="750" y="280" width="160" height="70"/><text class="label" x="785" y="325">计划</text>
+<rect class="box" x="470" y="475" width="160" height="70"/><text class="label" x="500" y="520">用工具</text>
+<rect class="box" x="190" y="280" width="160" height="70"/><text class="label" x="225" y="325">反馈</text>
+<path class="line arrow" d="M610 160 C720 175, 790 220, 815 280"/>
+<path class="line arrow" d="M815 350 C790 435, 720 500, 630 510"/>
+<path class="line arrow" d="M470 510 C360 495, 290 430, 270 350"/>
+<path class="line arrow" d="M270 280 C295 200, 375 160, 470 140"/>
+<rect class="accent" x="470" y="265" width="160" height="95"/><text class="label" x="510" y="305">目标</text><text class="tiny" x="500" y="335">完成多步任务</text>
+<text class="small" x="120" y="590">智能体不是“完全自主的人”，重要任务仍需要人工确认和边界约束。</text>
+
+</svg>

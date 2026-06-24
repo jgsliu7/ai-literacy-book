@@ -29,12 +29,17 @@
 | 第八章 | 历史真实图 | `assets/images/shakey.jpg` | 展示早期移动机器人 |
 | 第十章 | 历史真实图 | `assets/images/lisp_machine.jpg` | 展示专家系统商业化硬件 |
 | 第十一章 | 自绘架构图 | `assets/diagrams/neural_network.svg` | 解释神经网络层次结构 |
+| 第十一章 | 自绘概念图 | `assets/diagrams/gradient_backprop.svg` | 用下山和错题分摊解释梯度与反向传播 |
+| 第十一章 | 自绘概念图 | `assets/diagrams/convolution_window.svg` | 用小放大镜和区域摘要解释卷积与池化 |
+| 第十一章 | 自绘概念图 | `assets/diagrams/overfitting.svg` | 用背答案解释过拟合与泛化 |
 | 第十二章 | 历史真实图 | `assets/images/deep_blue.jpg` | 展示棋类AI里程碑 |
 | 第十三章 | 历史真实图 | `assets/images/alphago_board.png` | 展示AlphaGo棋局案例 |
 | 第十四章 | 自绘架构图 | `assets/diagrams/transformer_attention.svg` | 解释自注意力 |
+| 第十四章 | 自绘概念图 | `assets/diagrams/pretrain_finetune.svg` | 用泛读打基础和专项培训解释预训练与微调 |
 | 通识补充一 | 自绘流程图 | `assets/diagrams/llm_pipeline.svg` | 解释大语言模型基本流程 |
 | 第十五章 | 自绘流程图 | `assets/diagrams/rlhf_flow.svg` | 解释RLHF |
 | 第十五章 | 自绘风险图 | `assets/diagrams/ai_governance_risk.svg` | 解释AI治理分层 |
+| 第十六章 | 自绘概念图 | `assets/diagrams/agent_loop.svg` | 解释智能体AI的目标、规划、工具调用和检查循环 |
 | 通识补充二 | 自绘清单图 | `assets/diagrams/ai_use_checklist.svg` | 解释学生使用AI的核查流程 |
 
 ## 后续可扩展

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#fff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .line{stroke:#495057;stroke-width:3;fill:none} .thin{stroke:#adb5bd;stroke-width:2;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .dot{fill:#495057} .pale{fill:#f1f3f5;stroke:#adb5bd;stroke-width:2} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">预训练与微调：先打基础，再专项适配</text>
+<rect class="box" x="70" y="170" width="230" height="105"/><text class="label" x="105" y="225">海量通用资料</text><text class="tiny" x="105" y="252">网页、书籍、代码等</text>
+<rect class="box" x="380" y="170" width="230" height="105"/><text class="label" x="438" y="225">基础模型</text><text class="tiny" x="430" y="252">形成通用能力</text>
+<rect class="accent" x="690" y="170" width="230" height="105"/><text class="label" x="730" y="225">专项资料</text><text class="tiny" x="725" y="252">医学、客服、写作等</text>
+<rect class="accent" x="845" y="380" width="210" height="105"/><text class="label" x="895" y="435">专用模型</text>
+<path class="line arrow" d="M300 222 L380 222"/><text class="small" x="320" y="160">预训练</text>
+<path class="line arrow" d="M610 222 L690 222"/><text class="small" x="625" y="160">微调</text>
+<path class="line arrow" d="M805 275 L930 380"/>
+<text class="small" x="100" y="435">像先广泛读书建立基础语感，再针对某门考试做专项训练。</text>
+
+</svg>

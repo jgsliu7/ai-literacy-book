@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img">
+<style>
+.bg{fill:#fff} .title{font:700 34px Arial,'Noto Sans SC',sans-serif;fill:#212529} .label{font:600 22px Arial,'Noto Sans SC',sans-serif;fill:#212529} .small{font:18px Arial,'Noto Sans SC',sans-serif;fill:#495057} .tiny{font:15px Arial,'Noto Sans SC',sans-serif;fill:#6c757d} .box{fill:#f8f9fa;stroke:#495057;stroke-width:2;rx:8} .accent{fill:#e9ecef;stroke:#343a40;stroke-width:2;rx:8} .line{stroke:#495057;stroke-width:3;fill:none} .thin{stroke:#adb5bd;stroke-width:2;fill:none} .dash{stroke:#adb5bd;stroke-width:2;stroke-dasharray:8 7;fill:none} .dot{fill:#495057} .pale{fill:#f1f3f5;stroke:#adb5bd;stroke-width:2} .arrow{marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 z" fill="#495057"/></marker></defs>
+<rect class="bg" width="100%" height="100%"/>
+
+<text class="title" x="60" y="70">梯度与反向传播：错了以后往回调</text>
+<path class="pale" d="M90 500 C220 250, 360 190, 520 455 C620 610, 760 360, 1010 250 L1010 545 L90 545 Z"/>
+<circle class="dot" cx="305" cy="300" r="16"/><path class="line arrow" d="M305 300 C260 330, 230 370, 210 425"/>
+<text class="small" x="110" y="570">梯度：提示往哪个方向调，错误下降更快</text>
+<rect class="box" x="620" y="145" width="120" height="70"/><text class="small" x="653" y="188">输入</text>
+<rect class="box" x="770" y="145" width="120" height="70"/><text class="small" x="795" y="188">中间层</text>
+<rect class="box" x="920" y="145" width="120" height="70"/><text class="small" x="953" y="188">输出</text>
+<path class="line arrow" d="M740 180 L770 180"/><path class="line arrow" d="M890 180 L920 180"/>
+<path class="line arrow" d="M980 235 C920 300, 820 300, 680 235"/>
+<text class="small" x="680" y="335">反向传播：把最终错误分摊回前面各层，告诉参数怎么改</text>
+
+</svg>
